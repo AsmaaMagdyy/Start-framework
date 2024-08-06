@@ -1,0 +1,25 @@
+<nav (scroll)="onWindowScroll()" class="navbar navbar-expand-lg bg-nav add-py-4 position-fixed top-0 start-0 end-0 z-2">
+  <div class="container">
+    <a class="navbar-brand text-white text-uppercase fs-2 fw-bold" routerLink="/home">Start Framework</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a routerLink="/about" routerLinkActive="activ" class="d-inline-block nav-link text-uppercase text-white fw-bold me-3">About</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/portfolio" routerLinkActive="activ" class="d-inline-block nav-link text-uppercase text-white fw-bold me-3
+            ">portfolio</a>
+        </li>
+        <li class="nav-item">
+
+          <a routerLink="/contact" routerLinkActive="activ" class="d-inline-block nav-link text-uppercase text-white fw-bold me-3
+            ">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

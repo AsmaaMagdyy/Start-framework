@@ -1,0 +1,74 @@
+
+    <section class="bg-home text-blue py-4 mt-100 d-flex align-items-center position-relative">
+        <div class="container text-center">
+            
+            <app-star>
+                <h2 class="text-uppercase fs-1 fw-bold mb-0 ">portfolio component</h2>
+                <div class="d-flex align-items-center justify-content-center my-3">
+                    <div class=" bg-blue me-3 line" ></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class=" bg-blue ms-3 line"></div>
+                </div>
+            </app-star>
+           <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <div (click)="show($event)" #parentDiv class="inner position-relative">
+                    <img  #smallImg src="../../assets/images/poert1.png" class="w-100 rounded rounded-3" alt="photo">
+                    <div class="div-opc w-100 h-100 bg-green position-absolute top-0 start-0 end-0 rounded rounded-3 text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-96"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div (click)="show($event)" #parentDiv class="inner position-relative ">
+                    <img  #smallImg src="../../assets/images/port2.png" class="w-100 rounded rounded-3" alt="photo">
+                    <div class="div-opc w-100 h-100 bg-green position-absolute top-0 start-0 end-0 rounded rounded-3 text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-96"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div (click)="show($event)" #parentDiv class="inner position-relative ">
+                    <img  #smallImg src="../../assets/images/port3.png" class="w-100 rounded rounded-3" alt="photo">
+                    <div class="div-opc w-100 h-100 bg-green position-absolute top-0 start-0 end-0 rounded rounded-3 text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-96"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div (click)="show($event)" #parentDiv class="inner position-relative ">
+                    <img  #smallImg src="../../assets/images/poert1.png" class="w-100 rounded rounded-3" alt="photo">
+                    <div class="div-opc w-100 h-100 bg-green position-absolute top-0 start-0 end-0 rounded rounded-3 text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-96"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div  (click)="show($event)" #parentDiv class="inner position-relative ">
+                    <img  #smallImg src="../../assets/images/port2.png" class="w-100 rounded rounded-3" alt="photo">
+                    <div class="div-opc w-100 h-100 bg-green position-absolute top-0 start-0 end-0 rounded rounded-3 text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-96"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div (click)="show($event)" #parentDiv class="inner position-relative ">
+                    <img  #smallImg src="../../assets/images/port3.png" class="w-100 rounded rounded-3" alt="photo">
+                    <div class="div-opc w-100 h-100 bg-green position-absolute top-0 start-0 end-0 rounded rounded-3 text-white d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-96"></i>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+        <section id="22" (click)="hideLightBox($event)" #mysection class="photo-section bg-primary bg-opacity-25 d-flex justify-content-center align-items-center position-fixed top-0 start-0 end-0 bottom-0 z-3 d-none">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="col-xl-7">
+                    <img (click)="OnClick($event)" #lightBoxImg src="../../assets/images/poert1.png" class="w-100 p-md-2 " alt="photo">
+                </div>
+                
+            </div>
+        </section>
+    </section>
+    
+    

@@ -1,0 +1,31 @@
+.mt-100{
+    margin-top: 100px;
+}
+.text-blue{
+    color: #2c3e50;
+}
+.bg-blue{
+    background-color: #2c3e50;
+}
+.line{
+    width: 80px;
+     height: 4px;  
+}
+.bg-green{
+    background-color: #1abc9ce6;
+}
+.inner{
+    cursor: pointer;
+}
+.div-opc{
+    opacity: 0;
+    transition: 0.3s opacity;
+}
+.row .inner:hover .div-opc{
+opacity: 1;
+
+}
+.fs-96{
+    font-size: 96px;
+    font-weight: 900;
+}

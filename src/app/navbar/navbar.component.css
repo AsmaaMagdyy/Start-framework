@@ -1,0 +1,21 @@
+.bg-nav{
+    background-color: #2C3E50;
+}
+
+.navbar-nav .nav-link:focus {
+    background-color: #1ABC9C;
+    border-radius: 8px;
+ }
+.activ {
+    background-color: #1ABC9C;
+    border-radius: 8px;
+    padding: 10px;
+ }
+ .add-py-2{
+    padding: 0.5rem 0 ;
+    transition: all 0.7s;
+ }
+ .add-py-4{
+    padding: 2rem 0 ;
+    transition: all 0.7s;
+ }

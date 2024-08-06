@@ -1,0 +1,16 @@
+.bg-home{
+    background-color: #1ABC9C;
+}
+img{
+    width: 250px;
+}
+.mt-86{
+    margin-top: 86px;
+}
+section{
+    min-height: calc(-106px + 100vh);
+}
+.line{
+    width: 80px;
+     height: 4px;  
+}

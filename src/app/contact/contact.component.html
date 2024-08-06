@@ -1,0 +1,35 @@
+<section class="bg-home text-blue py-4 mt-100 d-flex align-items-center">
+    <div class="container-fluid container-md text-center">
+
+       
+        <app-star>
+            <h2 class="text-uppercase fs-1 fw-bold mb-0 ">conatct section</h2>
+            <div class="d-flex align-items-center justify-content-center my-3">
+                <div class=" bg-blue me-3 line"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class=" bg-blue ms-3 line"></div>
+            </div>
+        </app-star>
+
+        <div class="col-md-6 mx-auto text-start mt-5 pt-5">
+            <div class=" mb-5">
+                <label></label>
+            <input (keyup)="showLabel($event,'userName:')" #inp type="text" class="form-control border-0 border-bottom border-1 mb-2" placeholder="userName">
+        </div>
+            <div class=" mb-5">
+                <label></label>
+            <input (keyup)="showLabel($event,'userAge:')" #inp type="text" class="form-control border-0 border-bottom border-1 mb-2" placeholder="userAge">
+        </div>
+            <div class=" mb-5">
+                <label></label>
+            <input (keyup)="showLabel($event,'userEmail:')" #inp type="email" class="form-control border-0 border-bottom border-1 mb-2" placeholder="userEmail">
+        </div>
+            <div class=" mb-5">
+                <label></label>
+            <input (keyup)="showLabel($event,'userPassword:')" #inp type="password" class="form-control border-0 border-bottom border-1 mb-2" placeholder="userPassword">
+        </div>
+        <button type="button" class="btn btn-primary mb-3">send Message</button>
+    </div>
+    </div>
+
+</section>
